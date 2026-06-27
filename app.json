@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ResQNode",
+    "slug": "ResQNode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wdp.resqnode"
+    },
+    "android": {
+      "package": "com.wdp.resqnode",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@config-plugins/react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": ["peripheral", "central"],
+          "bluetoothAlwaysPermission": "Allow ResQNode to scan for offline SOS signals."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29
+          }
+        }
+      ]
+    ]
+  }
+}
