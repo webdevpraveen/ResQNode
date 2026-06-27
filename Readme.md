@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/WatermelonDB-SQLite-red?style=for-the-badge&logo=sqlite" alt="WatermelonDB" />
     <img src="https://img.shields.io/badge/BLE-Mesh_Network-008577?style=for-the-badge&logo=bluetooth" alt="BLE Mesh" />
     <img src="https://img.shields.io/badge/Firebase-Quota_Optimized-FFCA28?style=for-the-badge&logo=firebase" alt="Firebase" />
-    <img src="https://img.shields.io/badge/Architecture-GovTech_Grade-000000?style=for-the-badge" alt="GovTech Grade" />
+    <img src="https://img.shields.io/badge/Architecture-GovTech_Grade-navy?style=for-the-badge" alt="GovTech Grade" />
   </p>
 </div>
 
