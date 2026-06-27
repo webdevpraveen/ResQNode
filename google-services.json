@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413827282276",
+    "project_id": "wdp-resqnode",
+    "storage_bucket": "wdp-resqnode.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413827282276:android:9ebeb46cf8e0bd022a3671",
+        "android_client_info": {
+          "package_name": "com.wdp.resqnode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhHymM9ygO2Sh_Bx6QVxbgSjbwpu7rrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
